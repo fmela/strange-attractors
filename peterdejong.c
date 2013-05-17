@@ -33,11 +33,11 @@ void f(const double y[], double next[]) {
 int
 main(void)
 {
-    const int kWidth = 1200, kHeight = 1200;
+    const int kWidth = 900, kHeight = 900;
     const double kXLeft = -2.1, kXRight = 2.1;
     const double kYBottom = -2.1, kYTop = 2.1;
     const int kIterations = 10000000;
-    const char kOutput[] = "peterdejong.png";
+    const char kOutput[] = "images/peterdejong.png";
 
     clock_t start = clock();
 

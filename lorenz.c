@@ -38,12 +38,12 @@ void f(double t, const double y[], double dy[]) {
 int
 main(void)
 {
-    const int kWidth = 2400, kHeight = 2400;
+    const int kWidth = 900, kHeight = 900;
     const double kXLeft = -30, kXRight = 25;
     const double kYBottom = -35, kYTop = 35;
     const double h = 0.02;
     const int kIterations = 1000000;
-    const char kOutput[] = "lorenz.png";
+    const char kOutput[] = "images/lorenz.png";
 
     clock_t start = clock();
 

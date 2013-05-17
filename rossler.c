@@ -37,12 +37,12 @@ void f(double t, const double y[], double dy[]) {
 int
 main(void)
 {
-    const int kWidth = 1200, kHeight = 1200;
+    const int kWidth = 900, kHeight = 900;
     const double kXLeft = -10, kXRight = 12;
     const double kYBottom = -12, kYTop = 10;
     const double h = 0.01;
     const int kIterations = 1000000;
-    const char kOutput[] = "rossler.png";
+    const char kOutput[] = "images/rossler.png";
 
     clock_t start = clock();
 

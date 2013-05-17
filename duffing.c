@@ -36,8 +36,8 @@ void f(double t, const double y[], double dy[]) {
 int
 main(void)
 {
-    const char kOutput[] = "duffing.png";
-    const int kWidth = 1350, kHeight = 900;
+    const char kOutput[] = "images/duffing.png";
+    const int kWidth = 900, kHeight = 600;
     const double kXLeft = -1.5, kXRight = 1.5;
     const double kYBottom = -1.0, kYTop = 1.0;
     const int kIterations = 200000;
