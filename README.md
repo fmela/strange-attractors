@@ -5,10 +5,10 @@ All rights reserved.
 
 Examples images generated with these programs:
 
-![Duffing attractor](https://github.com/fmela/strange-attractors/raw/master/images/duffing.png)
+![Duffing attractor](images/duffing.png)
 
-![Lorenz attractor](https://github.com/fmela/strange-attractors/raw/master/images/lorenz.png)
+![Lorenz attractor](images/lorenz.png)
 
-![Peter De Jong attractor](https://github.com/fmela/strange-attractors/raw/master/images/peterdejong.png)
+![Peter De Jong attractor](images/peterdejong.png)
 
-![Rossler attractor](https://github.com/fmela/strange-attractors/raw/master/images/rossler.png)
+![Rossler attractor](images/rossler.png)
