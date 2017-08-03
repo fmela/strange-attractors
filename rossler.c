@@ -66,7 +66,7 @@ main(void)
     cairo_set_antialias(cr, CAIRO_ANTIALIAS_GOOD);
 
     // Blank to white.
-    cairo_set_source_rgba(cr, 0.0, 0.0, 0.0, 1.0);
+    cairo_set_source_rgba(cr, 1.0, 1.0, 1.0, 1.0);
     cairo_paint(cr);
 
     cairo_set_line_width(cr, 0.002);
@@ -86,7 +86,7 @@ main(void)
 	    if (max[j] < y_next[j]) max[j] = y_next[j];
 	}
 	// Draw.
-	cairo_set_source_rgba(cr, 1., 1., 1., 1.);
+	cairo_set_source_rgba(cr, 0., 0., 0., 1.);
 	cairo_move_to(cr, y[0], y[1]);
 	cairo_line_to(cr, y_next[0], y_next[1]);
 	cairo_stroke(cr);

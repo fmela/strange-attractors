@@ -38,11 +38,11 @@ void f(double t, const double y[], double dy[]) {
 int
 main(void)
 {
-    const int kWidth = 900, kHeight = 900;
-    const double kXLeft = -30, kXRight = 25;
-    const double kYBottom = -35, kYTop = 35;
+    const int kWidth = 1200, kHeight = 1200;
+    const double kXLeft = -20, kXRight = 20;
+    const double kYBottom = -30, kYTop = 30;
     const double h = 0.02;
-    const int kIterations = 1000000;
+    const int kIterations = 1000000/2;
     const char kOutput[] = "images/lorenz.png";
 
     clock_t start = clock();
@@ -67,7 +67,7 @@ main(void)
     cairo_set_antialias(cr, CAIRO_ANTIALIAS_GOOD);
 
     // Blank to white.
-    cairo_set_source_rgba(cr, 0.0, 0.0, 0.0, 1.0);
+    cairo_set_source_rgba(cr, 1.0, 1.0, 1.0, 1.0);
     cairo_paint(cr);
 
     cairo_set_line_width(cr, 0.002);
@@ -85,7 +85,7 @@ main(void)
 	    if (max[j] < y_next[j]) max[j] = y_next[j];
 	}
 	// Draw.
-	cairo_set_source_rgba(cr, 1., 1., 1., 1.);
+	cairo_set_source_rgba(cr, 0., 0., 0., 1.);
 	cairo_move_to(cr, y[0], y[1]);
 	cairo_line_to(cr, y_next[0], y_next[1]);
 	cairo_stroke(cr);
